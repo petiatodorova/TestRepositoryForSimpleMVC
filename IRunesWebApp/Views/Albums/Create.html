@@ -1,0 +1,23 @@
+﻿<div class="container body-container col-md-6">
+    <h1>Create Album</h1>
+    <div class="middle-line-green"></div>
+    <form method="post" action="/albums/create">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Name...">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Cover</label>
+            <input type="text" name="cover" class="form-control" placeholder="Cover...">
+        </div>
+        <div class="bottom-border-line"></div>
+        <div class="form-group row text-center">
+            <div class="col-md-6">
+                <button id="button-color" type="submit" class="btn btn-primary">Create</button>
+            </div>
+            <div class="col-md-6">
+                <a id="button-color" class="btn btn-primary" href="/albums/all" role="button">Back To All</a>
+            </div>
+        </div>
+    </form>
+</div>

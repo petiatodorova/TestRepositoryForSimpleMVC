@@ -1,0 +1,64 @@
+﻿.navbar {
+    background-color: mediumseagreen
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white
+}
+
+.top-border-line {
+    border-top: solid;
+    border-color: mediumseagreen;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom-border-line {
+    border-top: solid;
+    border-color: mediumseagreen;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.middle-line-white {
+    border-top: solid;
+    border-color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.middle-line-green {
+    border-top: solid;
+    border-color: mediumseagreen;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.jumbotron {
+    color:white;
+    background-color:mediumseagreen
+}
+ 
+.jumbotron a{
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller
+}
+
+.body-container h1 {
+    color: mediumseagreen;
+    text-align: center
+}
+
+#button-color {
+    background-color: mediumseagreen;
+    border-color: mediumseagreen;
+}
+
+#button-color:hover {
+    background-color: orange;
+    border-color: orange
+}

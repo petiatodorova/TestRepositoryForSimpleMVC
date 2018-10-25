@@ -1,0 +1,27 @@
+﻿<div class="row">
+    <div class="col-md-4">
+        <div>
+            <img src="{{Cover}}" title="{{Name}}" class="img-fluid img-thumbnail" alt="Responsive image">
+        </div>
+        <div class="text-center" style="margin: 15px">
+            <h6>Album Name: {{Name}}</h6>
+            <h6>Album Price: &#36;{{Price}}</h6>
+        </div>
+        <div class="form-group row">
+            <div class="col-md">
+                <a id="button-color" class="btn btn-primary" href="/tracks/create?albumId={{AlbumId}}" role="button">Create Track</a>
+            </div>
+            <div class="col-md text-right">
+                <a id="button-color" class="btn btn-primary" href="/albums/all" role="button">Back To All</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+        <h6>Tracks</h6>
+        <div>
+            {{Tracks}}
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
